@@ -1,0 +1,157 @@
+body {
+   background-image: url("background.png");
+   margin: 0 !important;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav
+{
+	width:100%;
+	background-color:#4269b2;
+	padding:0;
+	height:50px;
+	border-top:2px solid #537ac3;
+	border-bottom:2px solid #537ac3;
+	text-align:center;
+	position: sticky;
+	z-index:99;
+}
+.undernav
+{
+	width:100%;
+	padding:0;
+	height:50px;
+	z-index:50;
+}
+.sticky
+{
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index:100;
+}
+ol
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	line-height:250%;
+	display:inline-block;
+	z-index:20;
+}
+ol a
+{
+	color:#aae;
+	text-decoration:none;
+	display:block;
+	padding:5px;
+	transition: all 0.5s ease-in-out;
+}
+ol > li
+{
+	float:left;
+	width:170px;
+	font-size:24px;
+	font-weight:bold;
+	transition: all 0.5s ease-in-out;
+	z-index:20;
+}
+ol > li:hover
+{
+	background-color:#648bd4;
+	transform:scale(1.2);
+}
+ol > li:hover > a
+{
+	color:#449;
+}
+
+
+#logo
+{
+	max-width:350px;
+	max-height:200px;
+	margin-left:150px;
+	margin-bottom:30px;
+	margin-top:10px;
+	transition: all 2s cubic-bezier(0.49, -0.78, 0.53, 1.6);
+}
+
+#logo:hover
+{
+	transform:rotate(360deg) scale(1.3);
+}
+
+.cont
+{
+	background-image:url("background2.png");
+	margin-left:12%;
+	margin-right:3%;
+	font-size:22px;
+	padding:30px;
+	padding-top:60px;
+	z-index:1;
+	margin-bottom:300px;
+}
+p
+{
+	max-width:700px;
+	text-align:justify;
+}
+h3
+{
+	max-width:850px;
+}
+h2
+{
+	text-align:left;
+}
+
+a
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+a.lproj
+{
+	text-decoration:none;
+	color:#111;	
+	transition: color 0.1s ease-in-out;
+}
+
+a.lproj:hover
+{
+	text-decoration:none;
+	color:#ffa838;
+	transform:scale(1.5);
+}
+
+.social
+{
+	width:192px;
+	margin:10px;
+	height:120px;
+	float:left;
+	background-color:black;
+	text-align:center;
+	position:flex;
+	transition: all 0.2s ease-in-out;
+}
+
+
+.social:hover
+{
+transform:scale(1.2);
+}
+
+#footer
+{
+	width:100%;
+	height:300px;
+	background-color:#111111;
+	color:#eeeeee;
+	text-align:center;
+	padding-top:20px;
+	margin-top:40px;
+}

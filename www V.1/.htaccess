@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteRule ^yoxu index.html [NC,L]
+RewriteRule ^kim-jestem kimjestem.html [NC,L]
+RewriteRule ^oferta oferta.html [NC,L]
+RewriteRule ^pliki pliki.php [NC,L]
+RewriteRule ^kontakt kontakt.html [NC,L]
+RewriteRule ^wykaz wykaz.php [NC,L]
+
+
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.yoxu.eu$ 
+RewriteRule ^(.*)$ http://yoxu.eu/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.yoxu.pl$ 
+RewriteRule ^(.*)$ http://yoxu.pl/$1 [R=301,L]
+
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+

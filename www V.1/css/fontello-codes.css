@@ -1,0 +1,21 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-video:before { content: '\e802'; } /* '' */
+.icon-picture:before { content: '\e803'; } /* '' */
+.icon-home:before { content: '\e804'; } /* '' */
+.icon-down-big:before { content: '\e805'; } /* '' */
+.icon-left-big:before { content: '\e806'; } /* '' */
+.icon-right-big:before { content: '\e807'; } /* '' */
+.icon-up-big:before { content: '\e808'; } /* '' */
+.icon-phone:before { content: '\e809'; } /* '' */
+.icon-cog-alt:before { content: '\e80a'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-gplus:before { content: '\f0d5'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-laptop:before { content: '\f109'; } /* '' */
+.icon-info:before { content: '\f129'; } /* '' */
+.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-linux:before { content: '\f17c'; } /* '' */
+.icon-graduation-cap:before { content: '\f19d'; } /* '' */
+.icon-steam:before { content: '\f1b6'; } /* '' */
